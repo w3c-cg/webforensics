@@ -52,30 +52,29 @@
     <p>The primary goal of this Community Group is to <strong>research and define best practices for Web Forensics and the acquisition of online evidence</strong>. This involves exploring the fundamentals of Digital Forensics and its application to web-based scenarios, covering essential principles, processes, and procedures that ensure <strong>effective evidence handling and reporting</strong>. Our objectives are to:</p>
     <ul>
       <li><strong>Describe the scientific nature of Digital Forensics</strong> as it applies to web evidence, including key principles, characteristics, and purposes of digital evidence.  </li>
-      <li><strong>Explain and apply concepts for identifying, collecting, and preserving digital evidence</strong> from web sources in a &quot;forensically sound&quot; manner that maintains its original state.  </li>
+      <li><strong>Explain and apply concepts for identifying, collecting, and preserving digital web evidence</strong> from web sources in a &quot;forensically sound&quot; manner that preserve its original state in the best possible way.  </li>
       <li><strong>Document and explain the methodologies, tools, and processes</strong> necessary for collecting, analyzing, and presenting digital evidence from the web in a reliable, repeatable, and admissible way in court.  </li>
       <li><strong>Address the unique challenges of acquiring volatile web evidence</strong>, such as real-time changes, dynamic content, encryption, and distributed systems, proposing mitigation strategies.  </li>
-      <li><strong>Investigate methods for acquiring social media profiles without user credentials</strong>, acknowledging the security measures, privacy controls, and technical/legal barriers involved.  </li>
-      <li><strong>Develop guidelines for robust data preservation and data integrity</strong> in Web Forensics, which are fundamental for maintaining authenticity, reliability, and legal admissibility of digital evidence.  </li>
+      <li><strong>Investigate methods for acquiring content from social media profiles</strong>, acknowledging the security measures, privacy controls, and technical/legal barriers involved.  </li>
+      <li><strong>Develop guidelines for robust data preservation and data integrity</strong> in Web Forensics, which are fundamental for maintaining authenticity, integrity, reliability, and legal admissibility of digital evidence.  </li>
       <li><strong>Outline the importance of comprehensive forensic reports</strong> for documenting acquired evidence, explaining methodologies, and ensuring clarity for legal professionals and non-experts.  </li>
-      <li><strong>Provide guidance on setting up and configuring effective acquisition environments</strong> for Web Forensics, including the use of operating systems, web browsers, and network settings.</li>
+      <li><strong>Provide guidance on setting up and configuring effective acquisition environments</strong> for Web Forensics, including the benefit and limitations of different operating systems, web browsers, and network settings.</li>
     </ul>
     <h2 id="scope-of-work">
       Scope of Work
     </h2>
     <p>The scope of this group&#39;s work will encompass the following areas related to web forensics and online evidence acquisition:</p>
    <ul>
-      <li><strong>Digital Forensics Process Model (DFPM) adaptation for web evidence</strong>: Researching and detailing the application of the DFPM stages (Preparation, Gathering/Acquisition, Processing/Examination, Presentation/Reporting) specifically to web-based investigations.  </li>
+      <li><strong>Digital Forensics Process Model (DFPM) adaptation for web evidence</strong>: Researching and detailing the application of the DFPM stages (Preparation, Gathering/Acquisition, Processing/Examination, Presentation/Reporting) specifically to web-based forensic acquisitions.  </li>
       <li><strong>Web Evidence Characteristics</strong>: Defining web evidence and its unique properties, such as its dynamic and volatile nature, and the challenges this poses for acquisition and integrity.  </li>
       <li><strong>Specific Web Acquisition Sources</strong>: Investigating methodologies and best practices for acquiring evidence from diverse online sources, including:  <ul>
       <li><strong>Websites</strong>: Capturing and preserving content, metadata, HTML source code, network traffic, screenshots, pageshots, and video recordings. This includes static, dynamic, and ephemeral content.  </li>
       <li><strong>Web-Email, Web Messaging, Social Networks</strong>: Techniques for collecting user activity, metadata, multimedia content, and message logs, while navigating challenges like encryption, privacy settings, and APIs.  </li>
-      <li><strong>P2P-Torrent, Cloud Storage, Tor/DarkWeb, Metaverse</strong>: Specialized approaches for decentralized networks, remote storage, anonymized environments, and virtual worlds, addressing their unique properties and particularities.  </li>
+      <li><strong>P2P-Torrent, Web-Based Cloud Storage, Onion Sites/DarkWeb, Metaverse</strong>: Specialized approaches for decentralized networks, remote storage, anonymized environments, and virtual worlds, addressing their unique properties and particularities.  </li>
       <li><strong>Specific Web Acquisition Properties</strong>:</li>
-      <li><strong>Browser Profile</strong>: Extracting web browser profiles and their components (bookmarks, history, cookies, extensions, preferences, autofill, local storage) as sources of user activity and evidence.  </li>
       <li><strong>Acquisition Tools and Techniques</strong>: Evaluating and recommending various tools and techniques for web evidence acquisition, such as browser extensions, utilities (APIs, curl, wget), purpose-built web forensic software, network traffic capture tools (Wireshark, tcpdump), and video recording tools.  </li>
       <li><strong>Evidence Integrity and Verification</strong>: Researching and promoting the use of cryptographic hashing (MD5, SHA-256, SHA-1, SHA-3) to ensure data integrity and authenticity, as well as the importance of timestamps and Chain of Custody documentation.  </li>
-      <li><strong>Acquisition Environment Setup</strong>: Best practices for configuring a robust and controlled acquisition environment using virtualization technologies (Virtual Machines, Containers, SaaS), considering operating system choices (Windows, Linux, MacOSX).  </li>
+      <li><strong>Acquisition Environment Setup</strong>: Best practices for configuring a robust and controlled acquisition environment also using virtualization technologies (Virtual Machines, Containers, SaaS), considering operating system choices (Windows, Linux, MacOSX).  </li>
       <li><strong>Addressing Acquisition Challenges</strong>: Developing strategies and proposing solutions for overcoming complex web content acquisition issues, including dynamic content, anti-scraping measures, and interactive elements requiring operator intervention.  </li>
       <li><strong>Integration of Acquisition Methods</strong>: Investigating the benefits of integrating different acquisition methods, such as combining video recording and network traffic capture, for a more comprehensive view of web activities.</li>
       <li><strong>Web Archives</strong>: Investigating the presence of previously saved copies of the web page in public web archive sites.</li>
@@ -89,7 +88,7 @@
       <li><strong>Physical Forensics</strong>: Investigations involving physical objects or scenes that do not have a digital web component.  </li>
       <li><strong>General IT Security Operations</strong>: Activities like general network security, system administration, and penetration testing that are not performed for forensic evidence collection or investigation purposes.  </li>
       <li><strong>Legal Processes (beyond evidence admissibility)</strong>: While legal admissibility and compliance are crucial for forensic reports, the group will not delve into the specifics of legal proceedings or court rules beyond what is necessary for evidence handling and reporting.  </li>
-      <li><strong>Development of new forensic tools</strong>: While the group may recommend types of tools or features, the direct development of new web forensic software or hardware is not a primary objective.</li>
+      <li><strong>Development of new forensic tools</strong>: While the group may evaluate and recommend types of tools or features, the direct development of new web forensic software or hardware is not a primary objective.</li>
     </ul>
     <h2 id="deliverables">
       Deliverables
@@ -99,13 +98,14 @@
     </h3>
     <p>The primary deliverables of this Community Group will be a series of <strong>comprehensive and understandable reports and guidelines</strong> that detail best practices for web forensics and online evidence acquisition. These will be structured to serve as valuable resources for forensic professionals, legal teams, and other stakeholders. Specific deliverables include:</p>
     <ul>
-      <li><strong>Best Practice Guidelines for Online Evidence Acquisition</strong>: Detailed documents outlining proper identification, collection, acquisition, and preservation methodologies for various web evidence types, aligned with international standards like ISO/IEC 27037:2012.  </li>
+      <li><strong>Best Practice Guidelines for Online Evidence Web Acquisition</strong>: Detailed documents outlining proper identification, collection, acquisition, and preservation methodologies for various web evidence types, aligned with international standards like ISO/IEC 27037:2012.  </li>
       <li><strong>Standardized Web Forensic Report Template</strong>: A template for forensic reports that includes essential components such as case background, objectives, key findings, conclusions, recommendations, and a technical appendix. This template will emphasize accuracy, clarity, comprehensive detail, objectivity, confidentiality, chain of custody documentation, reproducibility, and legal compliance.  </li>
       <li><strong>Methodologies for Volatile Web Evidence Capture</strong>: Reports detailing strategies and technical approaches for capturing dynamic, real-time, and encrypted web content, including the use of advanced tools and comprehensive logging.  </li>
-      <li><strong>Guidelines for Social Media Evidence Acquisition</strong>: Documents addressing the complexities of acquiring evidence from social media platforms, including legal processes, collaboration with platforms, and OSINT techniques.  </li>
+      <li><strong>Guidelines for Social Media Evidence Acquisition</strong>: Documents addressing the complexities of acquiring evidence from social media platforms</li>
       <li><strong>Recommendations for Forensic Acquisition Environments</strong>: Detailed guidance on setting up and validating secure and isolated environments using VMs, containers, and SaaS solutions, including considerations for operating systems and network configurations (VPNs, proxies, Tor).  </li>
-      <li><strong>Artifact Analysis Guides</strong>: Documentation on extracting and interpreting web browser artifacts (history, cache, cookies, profiles, extensions) and other web-related data (Whois records, SSL certificates, robots.txt).  </li>
+      <li><strong>Artifact Analysis Guides</strong>: Documentation on extracting and interpreting web browser artifacts (history, cache, cookies, profiles, extensions) and other web-related data (Pcap Traffic file, Whois records, SSL certificates, robots.txt).  </li>
       <li><strong>Case Manager Best Practices</strong>: Guidelines on leveraging case management tools for organizing, tracking, and reporting forensic investigations, ensuring workflow efficiency and compliance.</li>
+      <li><strong>Tools Validation Framework</strong>: Guidelines how to validate Web Forensics Tools Forensic capabilities with test environments. Tools validation before use and after each Tool update is paramount to confirm tool's integrity and reliability.</li>      
     </ul>
     <h3 id="non-normative-reports">
       Non-Normative Reports
